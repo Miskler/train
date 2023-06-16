@@ -1,0 +1,323 @@
+<mxfile host="app.diagrams.net" modified="2023-06-16T15:41:26.525Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 YaBrowser/23.5.2.625 Yowser/2.5 Safari/537.36" etag="aMNVESe-gafi15699b_6" version="21.3.8" type="device">
+  <diagram name="Страница 1" id="pmA3T12U0y29bctuCMmK">
+    <mxGraphModel dx="1571" dy="400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rNvYdbHAw4pMWTasqW2j-11" value="Основные свойства" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;startSize=20;" parent="1" vertex="1">
+          <mxGeometry x="-70" y="10" width="180" height="200" as="geometry">
+            <mxRectangle x="-320" y="90" width="40" height="150" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rNvYdbHAw4pMWTasqW2j-3" value="Постапокалипсис" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="rNvYdbHAw4pMWTasqW2j-11" vertex="1">
+          <mxGeometry x="40" y="20" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rNvYdbHAw4pMWTasqW2j-2" value="Из поезда нельзя выйти &lt;br&gt;(только в городах)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="rNvYdbHAw4pMWTasqW2j-11" vertex="1">
+          <mxGeometry x="40" y="75" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rNvYdbHAw4pMWTasqW2j-1" value="2D с видом сверху" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="rNvYdbHAw4pMWTasqW2j-11" vertex="1">
+          <mxGeometry x="40" y="140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rNvYdbHAw4pMWTasqW2j-29" value="Краткая концепция игры:&lt;br&gt;&lt;br&gt;&quot;Вагонопрокат&quot; - это 2D постапокалиптическая игра с видом сверху, в которой игрок управляет поездом, из которого нельзя выйти. Главная цель игры - выжить, перемещаясь по опустошенному миру, собирая ресурсы и выполняя квесты.&lt;br&gt;&lt;br&gt;Игра с открытым миром, представляющие различные локации, от городов до пустынных районов и опасных лесов. Поезд состоит из нескольких вагонов, каждый из которых имеет уникальные свойства и функции. Вагоны могут быть отцеплены и двигаться по инерции, что позволяет игроку стратегически планировать свой путь и преодолевать преграды.&lt;br&gt;&lt;br&gt;У вагонов есть разные типы:&lt;br&gt;&lt;br&gt;Головной вагон: служит базовым управляемым модулем поезда, в котором находится игрок. Он может управлять движением поезда, отцеплять и прицеплять вагоны.&lt;br&gt;Оружейный вагон: в этом вагоне находятся оружие и боеприпасы. Он предоставляет игроку возможность обороняться и атаковать врагов, встречаемых на пути.&lt;br&gt;Складской вагон: здесь игрок может хранить собранные ресурсы и предметы. Он позволяет игроку эффективно управлять инвентарем и использовать ресурсы по мере необходимости.&lt;br&gt;Моторный вагон: этот вагон обеспечивает движение поезда. Игрок может улучшать и модернизировать двигатель, чтобы увеличить скорость и маневренность поезда.&lt;br&gt;Квестовый вагон: здесь игрок может принимать квесты и выполнять различные задания, что открывает новые возможности и расширяет историю игры.&lt;br&gt;В ходе игры игрок будет сталкиваться с различными преградами, включая враждебных выживших, опасные территории, аномалии и другие опасности. Игрок должен будет правильно управлять поездом, принимать стратегические решения и использовать ресурсы с умом, чтобы выжить и достичь следующего уровня.&lt;br&gt;&lt;br&gt;&quot;Вагонопрокат&quot; предлагает захватывающий геймплей, стратегические элементы и насыщенную постапокалиптическую атмосферу, где игроку предстоит преодолеть все трудности и найти свой путь к спасению в этом непрекращающемся путешествии на поезде, из которого нельзя выйти." style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-390" y="240" width="500" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-6" value="ChatGPT" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=42;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-390" y="200" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-39" value="Поезд" style="swimlane;whiteSpace=wrap;html=1;startSize=20;" parent="1" vertex="1">
+          <mxGeometry x="130" y="10" width="650" height="740" as="geometry">
+            <mxRectangle x="200" y="40" width="80" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rNvYdbHAw4pMWTasqW2j-4" value="Поезд" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="iL3_-v2hUQOzqMEYbKNU-39" vertex="1">
+          <mxGeometry x="110" y="422.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rNvYdbHAw4pMWTasqW2j-5" value="Вагоны можно подцеплять/отцеплять" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=none;fontColor=#ffffff;strokeColor=#ffffff;" parent="iL3_-v2hUQOzqMEYbKNU-39" vertex="1">
+          <mxGeometry x="230" y="512.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rNvYdbHAw4pMWTasqW2j-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" parent="iL3_-v2hUQOzqMEYbKNU-39" source="rNvYdbHAw4pMWTasqW2j-4" target="rNvYdbHAw4pMWTasqW2j-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="462.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rNvYdbHAw4pMWTasqW2j-6" value="У всех вагонов разные специализации" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="iL3_-v2hUQOzqMEYbKNU-39" vertex="1">
+          <mxGeometry x="370" y="512.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rNvYdbHAw4pMWTasqW2j-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" parent="iL3_-v2hUQOzqMEYbKNU-39" source="rNvYdbHAw4pMWTasqW2j-4" target="rNvYdbHAw4pMWTasqW2j-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rNvYdbHAw4pMWTasqW2j-7" value="Головной" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="iL3_-v2hUQOzqMEYbKNU-39" vertex="1">
+          <mxGeometry x="320" y="582.5" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rNvYdbHAw4pMWTasqW2j-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" parent="iL3_-v2hUQOzqMEYbKNU-39" source="rNvYdbHAw4pMWTasqW2j-6" target="rNvYdbHAw4pMWTasqW2j-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rNvYdbHAw4pMWTasqW2j-8" value="Оружейный" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="iL3_-v2hUQOzqMEYbKNU-39" vertex="1">
+          <mxGeometry x="320" y="632.5" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rNvYdbHAw4pMWTasqW2j-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.995;entryY=0.654;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=default;" parent="iL3_-v2hUQOzqMEYbKNU-39" source="rNvYdbHAw4pMWTasqW2j-6" target="rNvYdbHAw4pMWTasqW2j-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rNvYdbHAw4pMWTasqW2j-9" value="Складской" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="iL3_-v2hUQOzqMEYbKNU-39" vertex="1">
+          <mxGeometry x="320" y="682.5" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rNvYdbHAw4pMWTasqW2j-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" parent="iL3_-v2hUQOzqMEYbKNU-39" source="rNvYdbHAw4pMWTasqW2j-6" target="rNvYdbHAw4pMWTasqW2j-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rNvYdbHAw4pMWTasqW2j-10" value="Квестовые&lt;br&gt;(дают на время квестов)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="iL3_-v2hUQOzqMEYbKNU-39" vertex="1">
+          <mxGeometry x="450" y="677.5" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="iL3_-v2hUQOzqMEYbKNU-39" source="rNvYdbHAw4pMWTasqW2j-6" target="rNvYdbHAw4pMWTasqW2j-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rNvYdbHAw4pMWTasqW2j-19" value="Если отцепить на ходу он еще будет двигаться по инерции" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="iL3_-v2hUQOzqMEYbKNU-39" vertex="1">
+          <mxGeometry x="150" y="582.5" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rNvYdbHAw4pMWTasqW2j-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" parent="iL3_-v2hUQOzqMEYbKNU-39" source="rNvYdbHAw4pMWTasqW2j-5" target="rNvYdbHAw4pMWTasqW2j-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rNvYdbHAw4pMWTasqW2j-21" value="Можно толкнуть не подцепленный вагон" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="iL3_-v2hUQOzqMEYbKNU-39" vertex="1">
+          <mxGeometry x="150" y="662.5" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rNvYdbHAw4pMWTasqW2j-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" parent="iL3_-v2hUQOzqMEYbKNU-39" source="rNvYdbHAw4pMWTasqW2j-5" target="rNvYdbHAw4pMWTasqW2j-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rNvYdbHAw4pMWTasqW2j-27" value="Моторный&lt;br&gt;(головной тоже может двигаться, но очень слабо)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="iL3_-v2hUQOzqMEYbKNU-39" vertex="1">
+          <mxGeometry x="450" y="582.5" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="iL3_-v2hUQOzqMEYbKNU-39" source="rNvYdbHAw4pMWTasqW2j-6" target="rNvYdbHAw4pMWTasqW2j-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" parent="iL3_-v2hUQOzqMEYbKNU-39" source="7wluVAkbKQ3mOaBY779V-1" target="iL3_-v2hUQOzqMEYbKNU-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7wluVAkbKQ3mOaBY779V-1" value="Управление" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="iL3_-v2hUQOzqMEYbKNU-39" vertex="1">
+          <mxGeometry x="245" y="372.5" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7wluVAkbKQ3mOaBY779V-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" parent="iL3_-v2hUQOzqMEYbKNU-39" source="rNvYdbHAw4pMWTasqW2j-4" target="7wluVAkbKQ3mOaBY779V-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="462.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7wluVAkbKQ3mOaBY779V-3" value="Рычаг скорости&lt;br&gt;(назад может ехать в 2 раза медленее)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="iL3_-v2hUQOzqMEYbKNU-39" vertex="1">
+          <mxGeometry x="130" y="302.5" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" parent="iL3_-v2hUQOzqMEYbKNU-39" source="7wluVAkbKQ3mOaBY779V-1" target="7wluVAkbKQ3mOaBY779V-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-2" value="Переключение автотурелей (каждая турель может есть энергию и патроны)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="iL3_-v2hUQOzqMEYbKNU-39" vertex="1">
+          <mxGeometry x="130" y="222.5" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" parent="iL3_-v2hUQOzqMEYbKNU-39" source="7wluVAkbKQ3mOaBY779V-1" target="iL3_-v2hUQOzqMEYbKNU-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-4" value="Патроны загружаются вручную в специальный шкаф" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="iL3_-v2hUQOzqMEYbKNU-39" vertex="1">
+          <mxGeometry x="30" y="217.5" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" parent="iL3_-v2hUQOzqMEYbKNU-39" source="iL3_-v2hUQOzqMEYbKNU-2" target="iL3_-v2hUQOzqMEYbKNU-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-7" value="Тормоз" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="iL3_-v2hUQOzqMEYbKNU-39" vertex="1">
+          <mxGeometry x="210" y="192.5" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" parent="iL3_-v2hUQOzqMEYbKNU-39" source="7wluVAkbKQ3mOaBY779V-1" target="iL3_-v2hUQOzqMEYbKNU-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-9" value="Аварийный тормоз (может сломаться)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="iL3_-v2hUQOzqMEYbKNU-39" vertex="1">
+          <mxGeometry x="150" y="142.5" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" parent="iL3_-v2hUQOzqMEYbKNU-39" source="7wluVAkbKQ3mOaBY779V-1" target="iL3_-v2hUQOzqMEYbKNU-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-11" value="Локатор &lt;br&gt;(показывает ближайшую развилку)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="iL3_-v2hUQOzqMEYbKNU-39" vertex="1">
+          <mxGeometry x="310" y="307.5" width="145" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" parent="iL3_-v2hUQOzqMEYbKNU-39" source="7wluVAkbKQ3mOaBY779V-1" target="iL3_-v2hUQOzqMEYbKNU-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-13" value="Позволяет выбрать куда поворачивать" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="iL3_-v2hUQOzqMEYbKNU-39" vertex="1">
+          <mxGeometry x="460" y="352.5" width="145" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" parent="iL3_-v2hUQOzqMEYbKNU-39" source="iL3_-v2hUQOzqMEYbKNU-11" target="iL3_-v2hUQOzqMEYbKNU-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-16" value="Показывает название веток и позволяет оставить свои заметки (короткие)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="iL3_-v2hUQOzqMEYbKNU-39" vertex="1">
+          <mxGeometry x="460" y="252.5" width="145" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" parent="iL3_-v2hUQOzqMEYbKNU-39" source="iL3_-v2hUQOzqMEYbKNU-11" target="iL3_-v2hUQOzqMEYbKNU-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-18" value="Радио" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="iL3_-v2hUQOzqMEYbKNU-39" vertex="1">
+          <mxGeometry x="310" y="145" width="60" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" parent="iL3_-v2hUQOzqMEYbKNU-39" source="7wluVAkbKQ3mOaBY779V-1" target="iL3_-v2hUQOzqMEYbKNU-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-20" value="Ловит:" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="iL3_-v2hUQOzqMEYbKNU-39" vertex="1">
+          <mxGeometry x="390" y="145" width="60" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" parent="iL3_-v2hUQOzqMEYbKNU-39" source="iL3_-v2hUQOzqMEYbKNU-18" target="iL3_-v2hUQOzqMEYbKNU-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-23" value="Музыку" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="iL3_-v2hUQOzqMEYbKNU-39" vertex="1">
+          <mxGeometry x="390" y="102.5" width="60" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" parent="iL3_-v2hUQOzqMEYbKNU-39" source="iL3_-v2hUQOzqMEYbKNU-20" target="iL3_-v2hUQOzqMEYbKNU-23" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="162.5" />
+              <mxPoint x="470" y="120.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-25" value="Новости" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="iL3_-v2hUQOzqMEYbKNU-39" vertex="1">
+          <mxGeometry x="490" y="102.5" width="60" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="iL3_-v2hUQOzqMEYbKNU-39" source="iL3_-v2hUQOzqMEYbKNU-20" target="iL3_-v2hUQOzqMEYbKNU-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-28" value="Объявления о квестах" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="iL3_-v2hUQOzqMEYbKNU-39" vertex="1">
+          <mxGeometry x="490" y="145" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" parent="iL3_-v2hUQOzqMEYbKNU-39" source="iL3_-v2hUQOzqMEYbKNU-20" target="iL3_-v2hUQOzqMEYbKNU-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-30" value="Карта" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="iL3_-v2hUQOzqMEYbKNU-39" vertex="1">
+          <mxGeometry x="215" y="102.5" width="55" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" parent="iL3_-v2hUQOzqMEYbKNU-39" source="7wluVAkbKQ3mOaBY779V-1" target="iL3_-v2hUQOzqMEYbKNU-30" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="122.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-32" value="На ней отрисовывается только путь поезда (т.е. проезжанная дорога)&lt;br&gt;Остальное нужно заносить руками." style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="iL3_-v2hUQOzqMEYbKNU-39" vertex="1">
+          <mxGeometry x="30" y="52.5" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" parent="iL3_-v2hUQOzqMEYbKNU-39" source="iL3_-v2hUQOzqMEYbKNU-30" target="iL3_-v2hUQOzqMEYbKNU-32" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="117.5" />
+              <mxPoint x="200" y="92.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-34" value="Список задач (тоже руками)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="iL3_-v2hUQOzqMEYbKNU-39" vertex="1">
+          <mxGeometry x="246.25" y="52.5" width="87.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-40" value="Мир" style="swimlane;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;startSize=20;" parent="1" vertex="1">
+          <mxGeometry x="130" y="770" width="780" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="iL3_-v2hUQOzqMEYbKNU-40" source="iL3_-v2hUQOzqMEYbKNU-43" target="iL3_-v2hUQOzqMEYbKNU-44" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="iL3_-v2hUQOzqMEYbKNU-40" source="iL3_-v2hUQOzqMEYbKNU-43" target="iL3_-v2hUQOzqMEYbKNU-45" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="iL3_-v2hUQOzqMEYbKNU-40" source="iL3_-v2hUQOzqMEYbKNU-43" target="iL3_-v2hUQOzqMEYbKNU-46" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="iL3_-v2hUQOzqMEYbKNU-40" source="iL3_-v2hUQOzqMEYbKNU-43" target="iL3_-v2hUQOzqMEYbKNU-47" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-43" value="Биомы" style="whiteSpace=wrap;html=1;" parent="iL3_-v2hUQOzqMEYbKNU-40" vertex="1">
+          <mxGeometry x="10" y="30" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-44" value="Лес" style="whiteSpace=wrap;html=1;" parent="iL3_-v2hUQOzqMEYbKNU-40" vertex="1">
+          <mxGeometry x="80" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-45" value="Пустош" style="whiteSpace=wrap;html=1;" parent="iL3_-v2hUQOzqMEYbKNU-40" vertex="1">
+          <mxGeometry x="80" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-46" value="Болото" style="whiteSpace=wrap;html=1;" parent="iL3_-v2hUQOzqMEYbKNU-40" vertex="1">
+          <mxGeometry x="80" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-47" value="Городские развалины" style="whiteSpace=wrap;html=1;" parent="iL3_-v2hUQOzqMEYbKNU-40" vertex="1">
+          <mxGeometry x="80" y="200" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="iL3_-v2hUQOzqMEYbKNU-40" source="iL3_-v2hUQOzqMEYbKNU-52" target="iL3_-v2hUQOzqMEYbKNU-53" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="iL3_-v2hUQOzqMEYbKNU-40" source="iL3_-v2hUQOzqMEYbKNU-52" target="iL3_-v2hUQOzqMEYbKNU-63" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-52" value="Локации" style="rounded=0;whiteSpace=wrap;html=1;" parent="iL3_-v2hUQOzqMEYbKNU-40" vertex="1">
+          <mxGeometry x="170" y="30" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="iL3_-v2hUQOzqMEYbKNU-40" source="iL3_-v2hUQOzqMEYbKNU-53" target="iL3_-v2hUQOzqMEYbKNU-54" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="95" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="iL3_-v2hUQOzqMEYbKNU-40" source="iL3_-v2hUQOzqMEYbKNU-53" target="iL3_-v2hUQOzqMEYbKNU-56" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="465" y="95" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="iL3_-v2hUQOzqMEYbKNU-40" source="iL3_-v2hUQOzqMEYbKNU-53" target="iL3_-v2hUQOzqMEYbKNU-55" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="95" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-53" value="Поселения" style="rounded=0;whiteSpace=wrap;html=1;" parent="iL3_-v2hUQOzqMEYbKNU-40" vertex="1">
+          <mxGeometry x="230" y="80" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-54" value="Торговцы" style="rounded=0;whiteSpace=wrap;html=1;" parent="iL3_-v2hUQOzqMEYbKNU-40" vertex="1">
+          <mxGeometry x="320" y="50" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-55" value="Паб с персонажами которые могут дать задания" style="rounded=0;whiteSpace=wrap;html=1;" parent="iL3_-v2hUQOzqMEYbKNU-40" vertex="1">
+          <mxGeometry x="315" y="110" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-56" value="Ангар где можно починить вагоны и купить новые" style="rounded=0;whiteSpace=wrap;html=1;" parent="iL3_-v2hUQOzqMEYbKNU-40" vertex="1">
+          <mxGeometry x="410" y="110" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="iL3_-v2hUQOzqMEYbKNU-40" source="iL3_-v2hUQOzqMEYbKNU-63" target="iL3_-v2hUQOzqMEYbKNU-65" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="205" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="iL3_-v2hUQOzqMEYbKNU-40" source="iL3_-v2hUQOzqMEYbKNU-63" target="iL3_-v2hUQOzqMEYbKNU-67" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-63" value="Развалины" style="rounded=0;whiteSpace=wrap;html=1;" parent="iL3_-v2hUQOzqMEYbKNU-40" vertex="1">
+          <mxGeometry x="230" y="190" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-65" value="Иногда можно будет найти новый вагон" style="rounded=0;whiteSpace=wrap;html=1;" parent="iL3_-v2hUQOzqMEYbKNU-40" vertex="1">
+          <mxGeometry x="310" y="230" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-67" value="Найти выживших" style="rounded=0;whiteSpace=wrap;html=1;" parent="iL3_-v2hUQOzqMEYbKNU-40" vertex="1">
+          <mxGeometry x="400" y="230" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-41" value="Квесты" style="swimlane;whiteSpace=wrap;html=1;startSize=20;" parent="1" vertex="1">
+          <mxGeometry x="-90" y="770" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-42" value="Игрок" style="swimlane;whiteSpace=wrap;html=1;startSize=20;" parent="1" vertex="1">
+          <mxGeometry x="-550" y="770" width="440" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-69" value="Обычный вид сверху" style="rounded=0;whiteSpace=wrap;html=1;" parent="iL3_-v2hUQOzqMEYbKNU-42" vertex="1">
+          <mxGeometry x="330" y="40" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-70" value="В руке может держать только 1 предмет (какое-то оружие либо еще что-то" style="rounded=0;whiteSpace=wrap;html=1;" parent="iL3_-v2hUQOzqMEYbKNU-42" vertex="1">
+          <mxGeometry x="310" y="100" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-71" value="Смотрит в сторону мыши, движение WASD" style="rounded=0;whiteSpace=wrap;html=1;" parent="iL3_-v2hUQOzqMEYbKNU-42" vertex="1">
+          <mxGeometry x="300" y="190" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iL3_-v2hUQOzqMEYbKNU-72" value="Взаимодействие через очень близкий RayCast в стороне наблюдения" style="rounded=0;whiteSpace=wrap;html=1;" parent="iL3_-v2hUQOzqMEYbKNU-42" vertex="1">
+          <mxGeometry x="300" y="250" width="120" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
