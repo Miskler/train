@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-17T11:06:48.443Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 YaBrowser/23.5.2.625 Yowser/2.5 Safari/537.36" etag="ly4kCJhU1AsMlgIdKPrZ" version="21.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-17T15:46:24.948Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 YaBrowser/23.5.2.625 Yowser/2.5 Safari/537.36" etag="aTEoTli87zTQVJhzAQBm" version="21.4.0" type="github">
   <diagram name="Страница 1" id="pmA3T12U0y29bctuCMmK">
-    <mxGraphModel dx="3340" dy="1350" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3698" dy="1543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12,7 +12,7 @@
         <mxCell id="rNvYdbHAw4pMWTasqW2j-3" value="Постапокалипсис" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="rNvYdbHAw4pMWTasqW2j-11" vertex="1">
           <mxGeometry x="35" y="20" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rNvYdbHAw4pMWTasqW2j-2" value="Из поезда нельзя выйти (можно только в городах)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="rNvYdbHAw4pMWTasqW2j-11" vertex="1">
+        <mxCell id="rNvYdbHAw4pMWTasqW2j-2" value="Из поезда нельзя выйти во время движения" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="rNvYdbHAw4pMWTasqW2j-11" vertex="1">
           <mxGeometry x="35" y="75" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rNvYdbHAw4pMWTasqW2j-1" value="2D с видом сверху" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="rNvYdbHAw4pMWTasqW2j-11" vertex="1">
@@ -21,7 +21,7 @@
         <mxCell id="oGK1vq715rr8zdbcpzgk-31" value="Смена дня и ночи" style="rounded=0;whiteSpace=wrap;html=1;" parent="rNvYdbHAw4pMWTasqW2j-11" vertex="1">
           <mxGeometry x="180" y="20" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6y2salY9_mVwBJtiT9F8-13" value="Игрок не возрождается (загрузка последнего сохранения)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rNvYdbHAw4pMWTasqW2j-11">
+        <mxCell id="6y2salY9_mVwBJtiT9F8-13" value="Игрок не возрождается (загрузка последнего сохранения)" style="rounded=0;whiteSpace=wrap;html=1;" parent="rNvYdbHAw4pMWTasqW2j-11" vertex="1">
           <mxGeometry x="180" y="75" width="110" height="85" as="geometry" />
         </mxCell>
         <mxCell id="rNvYdbHAw4pMWTasqW2j-29" value="Краткая концепция игры:&lt;br&gt;&lt;br&gt;&quot;Вагонопрокат&quot; - это 2D постапокалиптическая игра с видом сверху, в которой игрок управляет поездом, из которого нельзя выйти. Главная цель игры - выжить, перемещаясь по опустошенному миру, собирая ресурсы и выполняя квесты.&lt;br&gt;&lt;br&gt;Игра с открытым миром, представляющие различные локации, от городов до пустынных районов и опасных лесов. Поезд состоит из нескольких вагонов, каждый из которых имеет уникальные свойства и функции. Вагоны могут быть отцеплены и двигаться по инерции, что позволяет игроку стратегически планировать свой путь и преодолевать преграды.&lt;br&gt;&lt;br&gt;У вагонов есть разные типы:&lt;br&gt;&lt;br&gt;Головной вагон: служит базовым управляемым модулем поезда, в котором находится игрок. Он может управлять движением поезда, отцеплять и прицеплять вагоны.&lt;br&gt;Оружейный вагон: в этом вагоне находятся оружие и боеприпасы. Он предоставляет игроку возможность обороняться и атаковать врагов, встречаемых на пути.&lt;br&gt;Складской вагон: здесь игрок может хранить собранные ресурсы и предметы. Он позволяет игроку эффективно управлять инвентарем и использовать ресурсы по мере необходимости.&lt;br&gt;Моторный вагон: этот вагон обеспечивает движение поезда. Игрок может улучшать и модернизировать двигатель, чтобы увеличить скорость и маневренность поезда.&lt;br&gt;Квестовый вагон: здесь игрок может принимать квесты и выполнять различные задания, что открывает новые возможности и расширяет историю игры.&lt;br&gt;В ходе игры игрок будет сталкиваться с различными преградами, включая враждебных выживших, опасные территории, аномалии и другие опасности. Игрок должен будет правильно управлять поездом, принимать стратегические решения и использовать ресурсы с умом, чтобы выжить и достичь следующего уровня.&lt;br&gt;&lt;br&gt;&quot;Вагонопрокат&quot; предлагает захватывающий геймплей, стратегические элементы и насыщенную постапокалиптическую атмосферу, где игроку предстоит преодолеть все трудности и найти свой путь к спасению в этом непрекращающемся путешествии на поезде, из которого нельзя выйти." style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
@@ -372,7 +372,7 @@
         <mxCell id="oGK1vq715rr8zdbcpzgk-32" value="Здоровье (можно будет восстанавливать в головном вагоне)" style="rounded=0;whiteSpace=wrap;html=1;" parent="oGK1vq715rr8zdbcpzgk-28" vertex="1">
           <mxGeometry x="30" y="90" width="125" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6y2salY9_mVwBJtiT9F8-12" value="Окно смерти (предложение загрузить последнее сохранение, либо выйти в меню/из игры)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="oGK1vq715rr8zdbcpzgk-9">
+        <mxCell id="6y2salY9_mVwBJtiT9F8-12" value="Окно смерти (предложение загрузить последнее сохранение, либо выйти в меню/из игры)" style="rounded=0;whiteSpace=wrap;html=1;" parent="oGK1vq715rr8zdbcpzgk-9" vertex="1">
           <mxGeometry x="40" y="490" width="150" height="90" as="geometry" />
         </mxCell>
         <mxCell id="oGK1vq715rr8zdbcpzgk-33" value="Здоровье, без брони" style="rounded=0;whiteSpace=wrap;html=1;" parent="iL3_-v2hUQOzqMEYbKNU-42" vertex="1">
@@ -406,40 +406,40 @@
         <mxCell id="oGK1vq715rr8zdbcpzgk-37" value="Стаи врагов" style="rounded=0;whiteSpace=wrap;html=1;" parent="oGK1vq715rr8zdbcpzgk-35" vertex="1">
           <mxGeometry x="160" y="110" width="127" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6y2salY9_mVwBJtiT9F8-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="oGK1vq715rr8zdbcpzgk-35" source="oGK1vq715rr8zdbcpzgk-38" target="6y2salY9_mVwBJtiT9F8-1">
+        <mxCell id="6y2salY9_mVwBJtiT9F8-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="oGK1vq715rr8zdbcpzgk-35" source="oGK1vq715rr8zdbcpzgk-38" target="6y2salY9_mVwBJtiT9F8-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oGK1vq715rr8zdbcpzgk-38" value="Бегут за ним и коцают (ехать быстрее, можно попытатся пустить внутрь если хп поезда важнее" style="rounded=0;whiteSpace=wrap;html=1;" parent="oGK1vq715rr8zdbcpzgk-35" vertex="1">
           <mxGeometry x="255" y="185" width="143" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="6y2salY9_mVwBJtiT9F8-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="oGK1vq715rr8zdbcpzgk-35" source="oGK1vq715rr8zdbcpzgk-41" target="6y2salY9_mVwBJtiT9F8-1">
+        <mxCell id="6y2salY9_mVwBJtiT9F8-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="oGK1vq715rr8zdbcpzgk-35" source="oGK1vq715rr8zdbcpzgk-41" target="6y2salY9_mVwBJtiT9F8-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oGK1vq715rr8zdbcpzgk-41" value="Проникают внутрь (нужно отстреливаться)" style="rounded=0;whiteSpace=wrap;html=1;" parent="oGK1vq715rr8zdbcpzgk-35" vertex="1">
           <mxGeometry x="80" y="185" width="100" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="6y2salY9_mVwBJtiT9F8-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="oGK1vq715rr8zdbcpzgk-35" source="6y2salY9_mVwBJtiT9F8-1" target="6y2salY9_mVwBJtiT9F8-4">
+        <mxCell id="6y2salY9_mVwBJtiT9F8-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="oGK1vq715rr8zdbcpzgk-35" source="6y2salY9_mVwBJtiT9F8-1" target="6y2salY9_mVwBJtiT9F8-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6y2salY9_mVwBJtiT9F8-1" value="Проникновение" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="oGK1vq715rr8zdbcpzgk-35">
+        <mxCell id="6y2salY9_mVwBJtiT9F8-1" value="Проникновение" style="rounded=0;whiteSpace=wrap;html=1;" parent="oGK1vq715rr8zdbcpzgk-35" vertex="1">
           <mxGeometry x="170" y="280" width="120" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="6y2salY9_mVwBJtiT9F8-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="oGK1vq715rr8zdbcpzgk-35" source="6y2salY9_mVwBJtiT9F8-4" target="6y2salY9_mVwBJtiT9F8-6">
+        <mxCell id="6y2salY9_mVwBJtiT9F8-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="oGK1vq715rr8zdbcpzgk-35" source="6y2salY9_mVwBJtiT9F8-4" target="6y2salY9_mVwBJtiT9F8-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6y2salY9_mVwBJtiT9F8-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="oGK1vq715rr8zdbcpzgk-35" source="6y2salY9_mVwBJtiT9F8-4" target="6y2salY9_mVwBJtiT9F8-8">
+        <mxCell id="6y2salY9_mVwBJtiT9F8-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="oGK1vq715rr8zdbcpzgk-35" source="6y2salY9_mVwBJtiT9F8-4" target="6y2salY9_mVwBJtiT9F8-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6y2salY9_mVwBJtiT9F8-4" value="На крыше вагонов есть люки через которые можно пробраться" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="oGK1vq715rr8zdbcpzgk-35">
+        <mxCell id="6y2salY9_mVwBJtiT9F8-4" value="На крыше вагонов есть люки через которые можно пробраться" style="rounded=0;whiteSpace=wrap;html=1;" parent="oGK1vq715rr8zdbcpzgk-35" vertex="1">
           <mxGeometry x="170" y="340" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="6y2salY9_mVwBJtiT9F8-6" value="Игрок может открыть/закрыть люк" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="oGK1vq715rr8zdbcpzgk-35">
+        <mxCell id="6y2salY9_mVwBJtiT9F8-6" value="Игрок может открыть/закрыть люк" style="rounded=0;whiteSpace=wrap;html=1;" parent="oGK1vq715rr8zdbcpzgk-35" vertex="1">
           <mxGeometry x="308" y="352.5" width="90" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="6y2salY9_mVwBJtiT9F8-8" value="Монстр может сломать люк (восстановление происходит при ремонте вагона)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="oGK1vq715rr8zdbcpzgk-35">
+        <mxCell id="6y2salY9_mVwBJtiT9F8-8" value="Монстр может сломать люк (восстановление происходит при ремонте вагона)" style="rounded=0;whiteSpace=wrap;html=1;" parent="oGK1vq715rr8zdbcpzgk-35" vertex="1">
           <mxGeometry x="40" y="336.25" width="110" height="77.5" as="geometry" />
         </mxCell>
-        <mxCell id="6y2salY9_mVwBJtiT9F8-11" value="Тупики&lt;br&gt;(поезд сходит с рельс, загрузка с последнего сохранения)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="oGK1vq715rr8zdbcpzgk-35">
+        <mxCell id="6y2salY9_mVwBJtiT9F8-11" value="Тупики&lt;br&gt;(поезд сходит с рельс, загрузка с последнего сохранения)" style="rounded=0;whiteSpace=wrap;html=1;" parent="oGK1vq715rr8zdbcpzgk-35" vertex="1">
           <mxGeometry x="20" y="35" width="120" height="75" as="geometry" />
         </mxCell>
       </root>
